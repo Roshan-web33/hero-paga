@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 2vh 5vw;
+    background-color: red;
+}
+.logo{
+    display: inline-block;
+}
+
+.navbar .logo > h1{
+    display: inline-block;
+    
+}
+
+nav{
+    display: inline-block;
+    
+    
+}
+
+ ul{
+    display: inline-block;
+    margin-left: 25vw;
+
+        
+    
+}
+li{
+    display: inline-block;
+    margin: 0 2vw;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5vh 1vw;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-left: 20vw;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.hero{
+    background-color: white;
+    display: inline-block;
+    width: 50vw;
+    height: 90vh;
+    margin-top: 2vh;
+    position: absolute;
+    
+
+    
+}
+.img{
+    background-color: white;
+    display: inline-block;
+    width: 49vw;
+    height: 90vh;
+    margin-top: 0;
+    margin-left: 2vw
+    psosition absolute;
+    margin-left: 50vw;
+    margin-top: 2vh;
+}
+
+#heading > pre h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 4vw;
+    color: black;
+    margin: 10vh 0 0 10vw;
+}
+#subheading > pre {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5vw;
+    color: black;
+    margin: 2vh 0 0 10vw
+}
+
+
+.hero > .book-btn{
+    display: inline-block;
+    padding: 0.5vh 1vw;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-left: 15vw;
+    margin-top: 5vh;
+    height: 10vh;
+    width: 15vw;
+    transition: all 0.3s ease;
+}
+.hero > .book-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.img > img{
+    width: 40vw;
+}
+
+
+
