@@ -104,90 +104,24 @@ a{
     color: white;
     font-size: 1.2em;
     font-weight: 500;
-    border-radius: 5px;
+    border-radius: 25px;
     margin-left: 15vw;
     margin-top: 5vh;
     height: 10vh;
     width: 15vw;
-    transition: all 0.3s ease;
+    transition: all 0.9s ease;
 }
 .hero > .book-btn:hover{
-    background-color: white;
+    transform: rotate(-10deg);
+    width: 18vw;
+    height: 13vh;
+    font-size: 1.5em;
+    background-color: red;
     color: black;
-    border: 1px solid black;
+   
 }
 .img > img{
     width: 40vw;
 }
-
-
-/* table */
-@media (max-width: 768px) and (max-height: 1024px) {
-    ul{margin-left:  5vw; }
-
-    .btn{margin-left: 5vw;}
-
-   .hero > .book-btn{width: 29vw;
-    height: 6vh;
-    margin-left: 10vw;}
-
-    #heading > pre h1{
-        font-size: 2.5rem;
-    }
-
-    #subheading > pre{
-        font-size: 1rem;
-    }
-
-    
-
-    .img{
-        width: 40vw;
-        height: 50vh;
-    }
-
-    .img > img{
-        margin-top: 6vh;
-    
-        width: 90%;
-    }
-}
-
-
-/* mobile */
-@media (max-width:375px) and (max-height: 747px){
-    ul{display: none;}
-   #heading > pre > h1{
-    font-size: 1.7rem;
-    
-   }
-   #subheading > pre{
-    font-size: 0.9rem;
-
-   }
-
-   .img{
-    height: 28vh;
-    margin-top: -44vh;
-    margin-left: 20vw;
-    float: left;
-   }
-
-   .img > img{
-    width: 70vw;
-    
-
-   }
-
-   .btn{
-    margin-left: 10vh;
-    
-   }
-  .hero > .book-btn{
-    width: 50vw;
-    font-size: 1rem;
-   }
-}
-
 
 
